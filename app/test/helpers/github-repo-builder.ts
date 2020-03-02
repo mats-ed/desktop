@@ -57,6 +57,7 @@ export function gitHubRepoFixture({
       ? `${endpoint}/${owner}/${name}.git`
       : `https://github.com/${owner}/${name}.git`,
     null,
-    parent
+    parent,
+    null
   )
 }
